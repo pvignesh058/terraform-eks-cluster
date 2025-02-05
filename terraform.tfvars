@@ -8,8 +8,8 @@ cluster_enabled_log_types = ["audit", "api", "authenticator", "controllerManager
 
 # VPC Settings (replace with your AWS VPC details)
 vpc_id                   = "vpc-084586028ced530c1"                # Replace with your AWS VPC ID
-private_subnet_ids       = ["subnet-090e49c527345a536", "subnet-0ab1e40c12d13da95"]  # Replace with your AWS Private Subnet IDs
-control_plane_subnet_ids = ["subnet-0d5972b20a4261ebe"]           # Replace with your AWS Control Plane Subnet ID
+private_subnet_ids       = ["subnet-09a5902273df4f9d0", "subnet-04af62804e04d2f60"]  # Replace with your AWS Private Subnet IDs
+control_plane_subnet_ids = ["subnet-0c0ed617a56fcd376"]           # Replace with your AWS Control Plane Subnet ID
 
 # Node Group Settings (Provide details for your node group or leave as empty for default)
 eks_managed_node_groups = {}
