@@ -13,7 +13,7 @@ variable "eks_cluster_version" {
 variable "enable_public_access" {
   description = "Whether to keep EKS Cluster access public, default is false"
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "cluster_enabled_log_types" {
