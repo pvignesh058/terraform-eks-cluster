@@ -1,5 +1,5 @@
 # EKS Cluster Settings
-eks_cluster_name          = "my-eks-cluster"             # Choose a name for your EKS Cluster
+eks_cluster_name          = "my-eks-clusters"             # Choose a name for your EKS Cluster
 eks_cluster_version       = "1.30"                        # EKS Version (Ensure it's supported)
 enable_public_access     = true                           # Set to true if you want public access to your cluster
 
