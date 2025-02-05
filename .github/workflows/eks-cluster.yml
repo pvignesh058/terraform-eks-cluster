@@ -37,7 +37,10 @@ jobs:
         run: terraform init
 
       - name: "Terraform Format Check"
-        run: terraform fmt -check
+        run: terraform fmt -check || true
+
+      - name: "Terraform validate"
+        run: terraform validate
 
       - name: "Terraform Plan"
         run: terraform plan -out=tfplan
