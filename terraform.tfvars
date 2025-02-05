@@ -7,9 +7,9 @@ enable_public_access     = true                           # Set to true if you w
 cluster_enabled_log_types = ["audit", "api", "authenticator", "controllerManager", "scheduler"]
 
 # VPC Settings (replace with your AWS VPC details)
-vpc_id                   = "vpc-04b529a2650dc71ca"                # Replace with your AWS VPC ID
-private_subnet_ids       = ["ssubnet-0239ff3a72a39d45c", "subnet-06bd7f13a322f8616"]  # Replace with your AWS Private Subnet IDs
-control_plane_subnet_ids = ["subnet-07bbd43d744d4fe90"]           # Replace with your AWS Control Plane Subnet ID
+vpc_id                   = "vpc-0d2946c31d9a1a570"                # Replace with your AWS VPC ID
+private_subnet_ids       = ["subnet-073c9849e006e2a24", "subnet-0f8740a36c0856b52"]  # Replace with your AWS Private Subnet IDs
+control_plane_subnet_ids = ["subnet-00a12f2246f3f740a"]           # Replace with your AWS Control Plane Subnet ID
 
 # Node Group Settings (Provide details for your node group or leave as empty for default)
 eks_managed_node_groups = {}
